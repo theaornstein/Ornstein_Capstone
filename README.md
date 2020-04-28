@@ -18,7 +18,7 @@ output: html_document
 
 **5) Null: The mean difference of IFI between levels of the predictor (latrunculin-treated or vehicle-treated NIH 3T3 cells) will be greater than or equal to zero. Alternative: The mean difference of IFI between levels of the predictor (latrunculin-treated or vehicle-treated NIH 3T3 cells) will be less than zero.**
 
-**6) To test the hypothesis in item #5, I will choose a one-sided, paired t-test. This is appropriate for the experimental variables since t-tests are suitable for a continuous, measured dependent variable, which in this experiment is IFI. A paired t-test is chosen over an unpaired t-test since the experiment uses an immortalized cell line in which all cells are assumed to be identical and thus are intrinsically linked. An alternative approach would be using a non-parametric test if the data appeared to not follow a normal distribution. We expect the collected measurements from this experiment to be normally distributed, thus a paired t-test is chosen for this simulation. A one-sided paired t-test is specifically chosen since we know from previous literature that Latrunculin should decrease traction forces and IFI. ** 
+**6) To test the hypothesis in item #5, I will choose a one-sided, paired t-test. This is appropriate for the experimental variables since t-tests are suitable for a continuous, measured dependent variable, which in this experiment is IFI. A paired t-test is chosen over an unpaired t-test since the experiment uses an immortalized cell line in which all cells are assumed to be identical and thus are intrinsically linked. An alternative approach would be using a non-parametric test if the data appeared to not follow a normal distribution. We expect the collected measurements from this experiment to be normally distributed, thus a paired t-test is chosen for this simulation. A one-sided paired t-test is specifically chosen since we know from previous literature that Latrunculin should decrease traction forces and IFI.** 
 
 **7) The experiment will consist of three independent replicates, completed a week apart from one another. The experiments will all be performed on Wednesdays. Each replicate will use new reagents to randomize the blocks. The cells in all replicates and for each treatment level will be from three successive passage (5,6,7). This introduces some randomness to the blocks by using different passage numbers. To complete this, vials of passages 5,6,7 of NIH 3T3 cells will be frozen and put in cryopreservation. Two-days prior to the day of the experiment (Monday), the cells will be taken out of cryopreservation, thawed and cultured in two, T-25 flasks. One flask will contain media with the Latrunculin drug (optimal dosage assumed to be worked out in other preliminary experiments) and the other flask will contain media with the vehicle control. The flasks will be labeled to know which cells are drug-treated and which are vehicle-treated.** 
 
@@ -86,7 +86,7 @@ result
 ```
 
 
-**9) A n of 100 will give a power of 0.804. A two sided alternative hypothesis was used in the simualtion to be more conservative. **
+**9) A n of 100 will give a power of 0.804. A two sided alternative hypothesis was used in the simualtion to be more conservative.**
 
 ```{r}
 set.seed(12345)
